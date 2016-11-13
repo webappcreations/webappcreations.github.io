@@ -1,0 +1,101 @@
+.section {
+  position: relative;
+
+  .decor_down {
+    height: 60px;
+    fill: $standard-color-0;
+    position: absolute;
+    top: -59px;
+  }
+
+
+}
+
+.section.header {
+  background-color: $standard-color-0;
+  color: $standard-color-1;
+  height: 60px;
+}
+
+.section.hero {
+  background-color: $standard-color-1;
+  color: $standard-color-0;
+  height: 300px;
+
+  .heros {
+    position: relative;
+
+    .hero_mainbuttons {
+      position: absolute;
+      top:40px;
+      left:0;
+    }
+  }
+  .heroteaser {
+    position: relative;
+
+    .heroteaser_element {
+      position: absolute;
+      top:70px;
+      left:0;  
+        width: 960px;
+    }
+    .heroteaser_element_final {
+      position: absolute;
+      top:70px;
+      left:0;
+        width: 960px;
+    }
+  }
+}
+
+.section.mainbuttons {
+  background-color: $standard-color-0;
+  color: $standard-color-1;
+  position:relative;
+}
+
+.section.footer {
+  position: fixed;
+  z-index: -1;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: $standard-color-0;
+
+  .decor_up {
+    fill: $standard-color-1;
+  }
+}
+
+
+
+@media (#{$bp-smaller-than-tablet}) {
+    .section.hero {
+        height: 120px;
+    }
+    .section.hero .heroteaser .heroteaser_element {
+        top: 30px;
+    }
+    .section {
+      .decor_down {
+        height: 30px;
+        top: -29px;
+      }
+    }
+
+    .section.header {
+      height: 30px;
+    }
+    .section.footer {
+      height: 30px;
+    }
+    
+    
+    .heroteaser_element {
+        width: 600px;
+    }
+    .heroteaser_element_final {
+        width: 600px;
+    }
+}
