@@ -874,7 +874,9 @@ form {
 .section.mainbuttons {
   background-color: #fff;
   color: #1d59b5;
-  position: relative;
+  position: relative; }
+
+.hero_card img {
   cursor: pointer; }
 
 .section.footer {

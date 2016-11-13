@@ -53,8 +53,12 @@
   background-color: $standard-color-0;
   color: $standard-color-1;
   position:relative;
+}
+
+.hero_card img {
   cursor:pointer;
 }
+
 
 .section.footer {
   position: fixed;
