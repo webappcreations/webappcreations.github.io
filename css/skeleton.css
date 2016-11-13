@@ -874,7 +874,8 @@ form {
 .section.mainbuttons {
   background-color: #fff;
   color: #1d59b5;
-  position: relative; }
+  position: relative;
+  cursor: pointer; }
 
 .section.footer {
   position: fixed;
@@ -885,9 +886,6 @@ form {
   background-color: #fff; }
   .section.footer .decor_up {
     fill: #1d59b5; }
-
-.hero_cards {
-  cursor: pointer; }
 
 @media (max-width: 750px) {
   .section.hero {
