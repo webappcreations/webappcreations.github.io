@@ -37,7 +37,7 @@
     .heroteaser_element {
       position: absolute;
       top:70px;
-      left:0;  
+      left:0;
         width: 960px;
     }
     .heroteaser_element_final {
@@ -69,6 +69,11 @@
 }
 
 
+.hero_cards {
+  cursor:pointer;
+}
+
+
 
 @media (#{$bp-smaller-than-tablet}) {
     .section.hero {
@@ -90,8 +95,8 @@
     .section.footer {
       height: 30px;
     }
-    
-    
+
+
     .heroteaser_element {
         width: 600px;
     }

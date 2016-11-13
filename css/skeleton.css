@@ -886,6 +886,9 @@ form {
   .section.footer .decor_up {
     fill: #1d59b5; }
 
+.hero_cards {
+  cursor: pointer; }
+
 @media (max-width: 750px) {
   .section.hero {
     height: 120px; }
